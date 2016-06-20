@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Tim's Pizza Parlor</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tim's Pizza Parlor</h1>
+      <h3>Get your personal pizza done with your favorite toppings. <br>Anymore than two toppings is sacrilege. Will not be allowed.</h3>
+      <form id="profile">
+        <label for="cheese">Cheese</label>
+        <select id="cheese" class="form-control col-lg-12 col-md-12 col-sm-4 col-xs-12">
+          <option value="0">Regular</option>
+          <option value="1">Extra Cheese</option>
+        </select>
+        <br>
+        <label for="sauce">Sauce</label>
+        <select id="sauce" class="form-control col-lg-12 col-md-12 col-sm-4 col-xs-12">
+          <option value="0">tomatoe</option>
+          <option value="1">cream</option>
+        </select>
+        <br>
+        <label for="protein">Protein</label>
+        <select id="protein" class="form-control col-lg-12 col-md-12 col-sm-4 col-xs-12">
+          <option value="0">none</option>
+          <option value="1">tofu</option>
+          <option value="2">pepperoni</option>
+          <option value="2">sausage</option>
+          <option value="2">bacon</option>
+          <option value="1">anchovy</option>
+        </select>
+        <br>
+        <label for="vegetable">Vegetables</label>
+        <select id="vegetable" class="form-control col-lg-12 col-md-12 col-sm-4 col-xs-12">
+          <option value="0">none</option>
+          <option value="1">artichoke</option>
+          <option value="1">mushrooms</option>
+          <option value="1">onions</option>
+          <option value="1">jalepenos</option>
+        </select>
+        <br>
+        <button id="price" type="submit" class="btn margin-top btn-danger">Give Price</button>
+      </form>
+      <div>
+        <h4 id="show"></h4>
+
+      </div>
+    </div>
+  </body>
+</html>
